@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images with Picture Element</title>
+  </head>
+  <body>
+    <h1>Responsive Image Example</h1>
+
+    <picture>
+      <source media="(max-width: 600px)" srcset="small.jpg" />
+      <source
+        media="(min-width: 601px) and (max-width: 1200px)"
+        srcset="medium.jpg"
+      />
+      <source media="(min-width: 1201px)" srcset="large.jpg" />
+      <img src="default.jpg" alt="Responsive Image" />
+    </picture>
+
+    <p>
+      This example uses the <code>picture</code> element to display different
+      image sources depending on the viewport width.
+    </p>
+  </body>
+</html>

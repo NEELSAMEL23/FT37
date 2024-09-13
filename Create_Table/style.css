@@ -4,14 +4,3 @@ body {
   align-items: center;
   height: 100vh;
 }
-.table {
-  border: 2px solid gray;
-}
-
-.table td {
-  border: 2px solid black;
-}
-
-.table th {
-  border: 2px solid black;
-}
