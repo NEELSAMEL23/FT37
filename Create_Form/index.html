@@ -3,65 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Form</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>FeedBack Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 style="text-align: center;">Feedback Form</h1>
+    <h1 style="text-align: center">Feedback Form</h1>
     <div class="container">
-      <form action="#" method="post" class="form">
-        <label for="feedback">Feedback-Type</label>
-        <select
-          name="feedback"
-          id="feedback"
-          required
-          style="margin-left: 15px"
-        >
-          <option value=""></option>
-          <option value="Formal">Formal</option>
-          <option value="Formative">Formative</option>
+      <form action="#" method="post">
+        <label for="FeedBack-Type"> FeedBack-Type </label>
+        <select name="FeedBack-Type" id="FeedBack-Type" style="width: 100%">
+          <option value="Compliment">Compliment</option>
           <option value="Constructive">Constructive</option>
         </select>
+
         <br />
         <br />
-        <label for="message" style="position: relative; top: -12px"
-          >Write Message:</label
+
+        <label for="Message">Message</label>
+        <textarea
+          name="Message"
+          id="Message"
+          style="width: 100%"
+          rows="4"
+        ></textarea>
+        <br />
+        <br />
+
+        <label for="WebsiteRating">Website Rating</label>
+        <input type="radio"> <span>Excellent</span>
+        <input type="radio"> <span>Good</span>
+        <input type="radio"> <span>Average</span>
+        <input type="radio"> <span>Poor</span>
+
+        <br>
+        <br>
+        <label for="Age">Age (10-100):</label>
+        <input type="number" min="10" max="100" style="width: 100%" required />
+
+        <br />
+        <br />
+
+        <label for="Email">Email:</label>
+        <input type="email" style="width: 100%" required />
+
+        <br />
+        <br />
+
+        <label for="Password">Password (min. 8 characters):</label>
+        <input type="password" style="width: 100%" minlength="8" required />
+        <br />
+        <br />
+
+        <label for="Websites">Websites URL (optional):</label>
+        <input type="url" style="width: 100%" />
+
+        <br />
+        <br />
+        <input type="checkbox" name="terms" id="terms" required />
+        <label for="terms" style="display: inline-block"
+          >I agree to the terms and conditions</label
         >
-        <textarea name="" id="" style="margin-left: 12px"> </textarea>
-
-        <br>
-        <br>
-        <label for="Rating">Rating:</label>
-        <input type="radio" name="Rating" id="Rating" style="margin-left: 65px">
-        <input type="radio" name="Rating" id="Rating" >
-        <input type="radio" name="Rating" id="Rating" >
-        <input type="radio" name="Rating" id="Rating" >
-        <input type="radio" name="Rating" id="Rating" >
-    <br>  
-    <br>
-    <label for="age">Age:</label> 
-    <input type="number" min="10" max="100" style="margin-left: 79px" required> 
-    <br>
-    <br>
-    <label for="Email">Email:</label>
-    <input type="email" style="margin-left: 68px" name="Email" id="Email" required >
-    <br>
-    <br>
-    <label for="Password">Password:</label>
-    <input type="password" style="margin-left: 48px" name="Password" id="Password"  required>
-    <br>
-    <br>
-    <label for="URL">Website-URL:</label>
-    <input type="url" name="URL" id="URL"  style="margin-left: 20px">
-    <br>
-    <br>
-    <input type="checkbox" name="terms" id="terms" required>
-    <label for="terms" style="color: grey;">Terms & condition</label>
-    <br>
-    <br>
-    <button type="submit">Submit</button>
-    </form>
-
+        <br />
+        <br />
+        <button style="display: block">Submit</button>
+      </form>
     </div>
   </body>
 </html>
