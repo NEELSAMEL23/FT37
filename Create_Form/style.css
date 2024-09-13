@@ -1,0 +1,10 @@
+.container{
+    display: inline-flex;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    left: 30%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
