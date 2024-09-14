@@ -2,44 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code and Resume</title>
+    <title>Code & Resume</title>
     <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-        font-family: Arial, sans-serif;
+      h1{
+        text-align: center;
       }
-      pre {
-        background-color: #f4f4f4;
+      pre{ 
+        margin-left: 30%;
         padding: 10px;
-        border: 1px solid #ddd;
-        width: 50%;
-        text-align: left;
-        margin-bottom: 20px;
+        height: 100px;
+        width: 500px; 
+        border: 1px solid black;
+        background-color: silver;
       }
-      iframe {
-        width: 600px;
-        height: 800px;
-        border: 1px solid #ddd;
+      iframe{
+        margin-left: 25%;
+        height: 60vh;
+        width: 45rem;
       }
     </style>
   </head>
   <body>
-    <h1>Code Block: Add Two Numbers</h1>
+    <h1>Code Block</h1>
     <pre>
-function addTwoNumbers(a, b) {
-    return a + b;
+function addTwoNum(a,b){
+  return a + b
 }
-console.log(addTwoNumbers(5, 3)); // Output: 8
-    </pre>
 
+console.log(addTwoNum(2+2)) 
+
+// output 4
+    </pre>
     <h1>Resume</h1>
-    <iframe src="./resume.pdf" type="application/pdf"></iframe>
+    <iframe src="./resume.pdf" frameborder="0"></iframe>
   </body>
 </html>
