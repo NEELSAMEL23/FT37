@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+        padding: 30px;
+        gap: 40px;
+      }
+
+      .cards {
+        height: 100px;
+        width: 100px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+          rgba(17, 17, 26, 0.1) 0px 0px 8px;
+        border-radius: 20%;
+        position: relative;
+      }
+
+      .cards img {
+        position: absolute;
+        height: 10vh;
+        left: 8px;
+        top: 20px;
+      }
+
+      .card1 img{
+        position: absolute;
+        width: 100px;
+        left: -5px;
+      }
+
+      .card3 img{
+        position: absolute;
+        left: 15px;
+      }
+
+      .card4 img{
+        position: absolute;
+        height: 7vh;
+        left: 10px;
+        top: 32px;
+      }
+
+      .card5 img{
+        position: absolute;
+        height: 7vh;
+        left: 15px;
+        top: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cards card1">
+        <img src="./bharatpe.png" alt="" />
+      </div>
+      <div class="cards card2">
+        <img src="./swiggy2340.png" alt="" />
+      </div>
+      <div class="cards card3">
+        <img src="./salesken.png" alt="" />
+      </div>
+      <div class="cards card4">
+        <img src="./vyapar.png" alt="" />
+      </div>
+      <div class="cards card5">
+        <img src="./capgemini.png" alt="" />
+      </div>
+      <div class="cards card6">
+        <img src="./simplilearn.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
