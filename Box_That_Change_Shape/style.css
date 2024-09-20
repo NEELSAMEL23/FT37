@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ececec;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10%;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.box3:link{
+    background-color: aqua;
+}
+
+.box3:hover{
+    background-color: cadetblue;
+    width: 250px;
+    height: 250px;
+}

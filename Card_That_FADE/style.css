@@ -1,0 +1,60 @@
+/* General reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 350px;
+}
+
+h1 {
+  color: #d3a7d4;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  transition: opacity 0.3s ease;
+  border: 5px solid transparent;
+}
+
+.card1 {
+  background-color: yellow;
+}
+
+.card2 {
+  background-color: pink;
+}
+
+.card3 {
+  background-color: red;
+}
+
+.card4 {
+  background-color: green;
+}
+
+.card:hover {
+  opacity: 1;
+  border-color: white;
+}
+
+.cards .card:not(:hover) {
+  opacity: 0.5;
+}

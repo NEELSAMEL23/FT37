@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(5, 5, 5);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.logo img {
+  width: 120px;
+  height: 30px;
+  color: #ffff;
+  
+}
+
+.content ul {
+  display: flex;
+  gap: 20px;
+}
+
+.content ul li {
+  list-style-type: none;
+}
+
+.content ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.menu-list {
+  display: none;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.content h1 {
+  text-align: center;
+  width: 600px;
+  font-size: 58px;
+  color: white;
+}
+
+.content p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 21px;
+  color: #a2a0a0;
+}
+
+.generate-box {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.generate-box input {
+  width: 400px;
+  height: 40px;
+}
+
+.search {
+  display: flex;
+  margin-top: 40px;
+  border: 1px solid rgb(25, 102, 179);
+  width: 520px;
+  background-color: black;
+  margin-left: 430px;
+  height: 40px;
+  box-shadow: 1px 1px 10px rgb(116, 7, 166);
+  border-radius: 20px;
+}
+
+.search input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: black;
+  padding-left: 15px;
+  color: #666;
+}
+
+.search button {
+  border-radius: 10px;
+  background-color: blueviolet;
+  border: blueviolet;
+  width: 80px;
+  margin-right: 15px;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.reviews p {
+  color: #666;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews p span {
+  font-size: 20px;
+  color: rgb(30, 168, 30);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footerbox {
+  display: flex;
+  background-color: #ffff;
+  height: 20px;
+  width: 120px;
+  font-size: 10px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.footerbox img {
+  height: 60%;
+  width: 50px;
+}

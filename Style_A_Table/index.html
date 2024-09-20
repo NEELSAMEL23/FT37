@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+        table{
+            margin-left: 300px;
+            margin-top: 150px;
+            width: 700px;
+            height: 350px;
+            padding: 4px;
+        }
+
+        table thead{
+            background-color: silver;
+        }
+
+        table tbody tr:nth-of-type(3n){
+            color: green;
+        }
+
+        table tbody tr:nth-of-type(4n-3){
+            font-size: 28px;
+            font-style: italic;
+        }
+        table tbody tr:last-child{
+            background-color: yellow;
+        }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product1</td>
+          <td>1</td>
+          <td>20</td>
+        </tr>
+
+        <tr>
+          <td>Product2</td>
+          <td>2</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product3</td>
+          <td>3</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product4</td>
+          <td>4</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product5</td>
+          <td>5</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product6</td>
+          <td>6</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product7</td>
+          <td>7</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product8</td>
+          <td>8</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product9</td>
+          <td>9</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Product10</td>
+          <td>10</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td colspan="2">sum</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

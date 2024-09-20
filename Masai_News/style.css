@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.news-card {
+  background-color: rgb(242, 251, 255);
+  width: 100%;
+  height: 450px;
+}
+
+.news-card .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.news-card .cards .card {
+  background-color: #fff;
+  width: 250px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.news-card .cards .card img {
+  width: 100%;
+  height: 150px;
+}
+.investor-card {
+  margin-bottom: 200px;
+}
+.investor-card .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.investor-card .cards .card {
+  height: 100px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(208, 206, 206);
+  padding: 10px;
+}
+
+.investor-card .cards .card img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
