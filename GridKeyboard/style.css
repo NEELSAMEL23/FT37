@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #03d9ff;
+}
+.container {
+  margin-top: 10rem;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 80%;
+  margin: auto;
+  background-color: rgb(2, 2, 2);
+  padding: 30px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.keyboard > div {
+  background-color: rgb(108, 108, 108);
+  color: white;
+  text-align: center;
+  box-shadow: 1px 1px 5px white;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.enter {
+  grid-column: 11 / span 2;
+}
+
+.shift {
+  grid-column: 11 / span 2;
+}
+
+.space {
+  grid-column: 5 / span 4;
+}

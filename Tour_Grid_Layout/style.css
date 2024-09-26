@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+}
+
+.home-banner {
+  width: 1920px;
+  height: 860px;
+  background-image: url(./homebg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Header {
+  width: 1320px;
+  height: 88px;
+  left: 300px;
+  position: relative;
+}
+
+.header-logo {
+  width: 808.84px;
+  height: 44.13px;
+  top: 21.94px;
+  left: 15px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+.desktopNav {
+  width: 611.84px;
+  height: 44.13px;
+  left: 197px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.desktopNav > div {
+  width: 101px;
+  height: 44.13px;
+  border-radius: 100px;
+}
+
+.desktopNav > div > p {
+  width: 41.2px;
+  height: 28.13px;
+  top: 8px;
+  left: 20px;
+  font-weight: 400;
+  font-size: 14.77px;
+  line-height: 28.13px;
+  font-family: "Inter";
+  position: relative;
+}
+.Nav-home-colour {
+  color: #eb662b;
+}
+
+.Nav-colour {
+  color: #05073c;
+}
+
+.header-right {
+  width: 367.92px;
+  height: 44px;
+  top: 22px;
+  left: 937.08px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.headerDropdown_button {
+  width: 91.86px;
+  height: 42.13px;
+  top: 0.94px;
+  left: 30px;
+  position: relative;
+  border-radius: 200px;
+  border: 1px solid black;
+}
+
+.headerDropdown_button > p {
+  width: 29.06px;
+  height: 20px;
+  top: 11px;
+  left: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13.83px;
+  line-height: 28.13px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.help  {
+    width: 31.68px;
+    height: 28.13px;
+    top: 7.94px;
+    left: 141.86px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14.53px;
+    line-height: 28.13px;
+    color: #05073C;
+    position: absolute;
+}
+.sign-up{
+    width: 51.47px;
+    height: 28.13px;
+    top: 7.94px;
+    left: 203.34px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14.53px;
+    line-height: 28.13px;
+    color: #05073C;
+    position: absolute;
+}
+
+.login{
+    width: 83.31px;
+    height: 44px;
+    left: 284.61px;
+    border-radius: 200px;
+    border: 1px solid #05073C; 
+    position: absolute
+}
+.login>p{
+    width: 41.51px;
+    height: 20px;
+    top: 12px;
+    left: 21px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14.3px;
+    line-height: 28px;
+    text-align: Center;
+    position:absolute
+}
